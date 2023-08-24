@@ -91,7 +91,8 @@ class IterableEventHandler {
   }
 
   _callUrlHandler(Uri url, IterableActionContext context, Function callback) {
-    bool handledResult = callback(url, context);
+    bool handledResult =
+        callback((url is String) ? url : url.toString(), context);
     if (handledResult == false) {
       launcher.canLaunchUrl(url).then((canOpen) => {
             if (canOpen)
