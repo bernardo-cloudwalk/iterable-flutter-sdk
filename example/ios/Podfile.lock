@@ -2,7 +2,8 @@ PODS:
   - Flutter (1.0.0)
   - iterable (0.0.1):
     - Flutter
-    - Iterable-iOS-SDK
+    - Iterable-iOS-AppExtensions (= 6.4.1)
+    - Iterable-iOS-SDK (= 6.4.1)
   - Iterable-iOS-AppExtensions (6.4.1)
   - Iterable-iOS-SDK (6.4.1)
   - url_launcher_ios (0.0.1):
@@ -29,11 +30,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  iterable: fb171f9639b6aac7a8e56f7b7dfa79e312048106
+  iterable: 2196e9b85f8c9f2bd55fcaa37f2870ae5634f156
   Iterable-iOS-AppExtensions: 45c334a84354b6ec69067c52f9f76e041f521fc3
-  Iterable-iOS-SDK: 059cc208e75bd0083e1335d749e574ef520eb425
+  Iterable-iOS-SDK: da2a57e89db38ac20a01cdb7e9e94cd977b5294a
   url_launcher_ios: 02f1989d4e14e998335b02b67a7590fa34f971af
 
 PODFILE CHECKSUM: 0caebe4de5adc92cece0d9bd12368ea7bba126b1
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.3
